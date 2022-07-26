@@ -1,0 +1,9 @@
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 6rem);
+  place-items: center;
+  justify-content: center;
+  align-content: center;
+  position: relative;
+  top: 15vh;
+}/*# sourceMappingURL=Board.css.map */
