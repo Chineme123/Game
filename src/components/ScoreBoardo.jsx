@@ -2,7 +2,7 @@ import React from 'react'
 import '../sass/ScoreBoard.css'
 
 const ScoreBoard = ({scores, xPlayer}) => {
-    const {xScore, oScore} = scores;
+    const {oScore} = scores;
   return (
     <div className='score-board sco'>
         <span id='o' className = {`score o-score ${xPlayer && 'inactive'}`}>O  - {oScore}</span>

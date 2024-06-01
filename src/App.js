@@ -72,7 +72,6 @@ function App() {
   }
 
   const checkWinner = (board) => {
-    let draw = 'This match was a Draw'
     for(let i = 0; i < WIN_CONDITIONS.length; i++){
       const [x, y, z] = WIN_CONDITIONS[i];
 

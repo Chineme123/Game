@@ -4,7 +4,7 @@ import '../sass/ResetButton.css'
 const ResetButton = ({resetBoard}) => {
   return (
     <button className='reset-button' onClick = {resetBoard}>
-        Reset Game 
+      Reset Game 
     </button>
   )
 }
